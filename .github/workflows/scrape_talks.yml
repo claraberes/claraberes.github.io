@@ -16,11 +16,11 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'  # Specify the Python version you need
+        python-version: '3.9'
 
     - name: Install dependencies
       run: |
-        pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
+        pip install jupyter pandas requests beautifulsoup4 geopy
         pip install getorg --upgrade
 
     - name: Run Jupyter Notebook
@@ -28,13 +28,12 @@ jobs:
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
     - name: Commit and Push changes
-  env:
-    TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-  run: |
-    git config user.name "GitHub Actions"
-    git config user.email "actions@github.com"
-    git add .
-    git commit -m "Automated update of talk locations" || echo "No changes to commit"
-    git remote set-url origin https://x-access-token:${TOKEN}@github.com/claraberes/claraberestycki.github.io.git
-    git push origin HEAD:master
-
+      env:
+        TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add .
+        git commit -m "Automated update of talk locations" || echo "No changes to commit"
+        git remote set-url origin https://x-access-token:${TOKEN}@github.com/claraberes/claraberestycki.github.io.git
+        git push origin HEAD:master

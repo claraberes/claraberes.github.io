@@ -31,9 +31,9 @@ jobs:
         git config user.email "claraberes@users.noreply.github.com"
         git remote set-url origin https://x-access-token:${TOKEN}@github.com/claraberes/claraberestycki.github.io.git
 
-    - name: Pull the latest changes from the remote repository
+    - name: Pull the latest changes
       run: |
-        git pull origin master --rebase
+        git pull origin master
 
     - name: Run Jupyter Notebook
       run: |

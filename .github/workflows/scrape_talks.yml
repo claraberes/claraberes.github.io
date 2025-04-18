@@ -27,7 +27,7 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
-   - name: Commit and Push changes
+    - name: Commit and Push changes
       env:
         TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |

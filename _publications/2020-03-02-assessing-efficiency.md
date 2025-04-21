@@ -1,5 +1,5 @@
 ---
-title: "Assessing the efficiency of environmental policy design and evaluation: Results from a 2018 cross-country survey"
+title: "Assessing the Efficiency of Environmental Policy Design and Evaluation: Results from a 2018 Cross-country Survey"
 collection: publications
 category: conferences
 date: 2020-07-03

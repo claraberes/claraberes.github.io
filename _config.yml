@@ -160,7 +160,7 @@ include:
 exclude:
   - _posts
   - _talks 
-  _ _portfolio
+  - _portfolio
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

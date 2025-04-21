@@ -23,11 +23,11 @@ repository               : "https://claraberes.github.io/"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Clara Berestycki"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "PhD Candidate, Sustainable Development"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Columbia University"
   uri              : # URL
   email            : "none@example.org" 
 

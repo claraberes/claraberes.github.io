@@ -14,6 +14,8 @@
   {% assign crumb_path = site.categories.path %}
 {% endif %}
 
+{% assign excluded_categories = site.exclude_cats %}
+
 <nav class="breadcrumbs">
   <ol itemscope itemtype="http://schema.org/BreadcrumbList">
     {% assign crumbs = page.url | split: '/' %}
@@ -26,6 +28,13 @@
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
       {% endif %}
+      
+      {% assign current_category = crumb | downcase | replace: '%20', '-' %}
+      
+      {% if excluded_categories contains current_category %}
+        {% continue %}  <!-- Skip rendering this category in the breadcrumbs -->
+      {% endif %}
+
       {% if forloop.last %}
         <li class="current">{{ page.title }}</li>
       {% else %}

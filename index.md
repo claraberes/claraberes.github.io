@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: compress
 title: Welcome to my website!
 permalink: /
 ---

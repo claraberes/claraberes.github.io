@@ -338,7 +338,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
+tagline: "Welcome to my website! <br> I am a 4th year student in the Sustainable Development PhD program at Columbia SIPA. <br> I am an environmental economist interested in spatial mobility, avoidance behavior, and green innovation. <br> Before my PhD, I studied at Ecole Normale Supérieure Paris-Scalay and worked at the OECD. Feel free to be in touch!"
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:

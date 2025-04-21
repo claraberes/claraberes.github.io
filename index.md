@@ -1,5 +1,3 @@
-
-
 ---
 layout: splash
 title: Welcome to my website!

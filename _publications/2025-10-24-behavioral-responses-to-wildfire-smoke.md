@@ -7,4 +7,5 @@ authors:
 - "Clara Berestycki"
 - "Keith Chen"
 paperurl: "#"
+citation: 'Clara Berestycki and Keith Chen.'
 ---

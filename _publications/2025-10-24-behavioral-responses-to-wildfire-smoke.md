@@ -7,5 +7,5 @@ authors:
 - "Clara Berestycki"
 - "Keith Chen"
 paperurl: "#"
-citation: 'Behavioral Responses to Wildfire Smoke: Insights from Smartphone Location Data. Clara Berestycki and Keith Chen. Sept 2025. Submitted'
+citation: 'Clara Berestycki and Keith Chen. Sept 2025. Submitted'
 ---

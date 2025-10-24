@@ -2,11 +2,9 @@
 title: "Behavioral Responses to Wildfire Smoke: Insights from Smartphone Location Data"
 collection: publications
 category: manuscripts
-date: 2025-10-24
+date: Sept 2025
 authors:
 - "Clara Berestycki"
 - "Keith Chen"
 paperurl: "#"
-status: "working paper"
-published: true
 ---

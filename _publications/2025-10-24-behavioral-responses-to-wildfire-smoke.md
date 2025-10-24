@@ -1,7 +1,7 @@
 ---
 title: "Behavioral Responses to Wildfire Smoke: Insights from Smartphone Location Data"
 collection: publications
-type: working_paper      
+category: manuscripts
 date: 2025-10-24
 authors:
 - "Clara Berestycki"
@@ -10,4 +10,3 @@ paperurl: "#"
 status: "working paper"
 venue: Submitted
 ---
-

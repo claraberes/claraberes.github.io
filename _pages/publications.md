@@ -20,16 +20,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
           {% assign title_shown = true %}
         {% endunless %}
 
-- **{{ post.title }}**
-  {% if post.authors %}
-    - Authors: {{ post.authors | join: ", " }}
-  {% endif %}
-  {% if post.paperurl %}
-    - [Download paper]({{ post.paperurl }})
-  {% endif %}
-  {% if post.citation %}
-    - Citation: {{ post.citation }}
-  {% endif %}
+- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status %}. {{ post.status }}{% endif %}
 
       {% endif %}
     {% endfor %}
@@ -37,16 +28,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 {% else %}
   {% for post in site.publications reversed %}
     {% if post.status == "published" or post.status == "working paper" %}
-- **{{ post.title }}**
-  {% if post.authors %}
-    - Authors: {{ post.authors | join: ", " }}
-  {% endif %}
-  {% if post.paperurl %}
-    - [Download paper]({{ post.paperurl }})
-  {% endif %}
-  {% if post.citation %}
-    - Citation: {{ post.citation }}
-  {% endif %}
+- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status %}. {{ post.status }}{% endif %}
     {% endif %}
   {% endfor %}
 {% endif %}

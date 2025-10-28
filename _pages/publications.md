@@ -9,8 +9,6 @@ author_profile: true
 You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
 {% endif %}
 
-{% include base_path %}
-
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}

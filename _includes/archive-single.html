@@ -1,4 +1,4 @@
-<p class="pub-title"><strong>{{ post.title }}</strong></p>
+<p class="pub-title"><strong>{{ post.title | markdownify | remove: '<p>' | remove: '</p>' }}</strong></p>
 
 {% if post.authors %}
   <p><strong>Authors:</strong> {{ post.authors | join: ", " }}</p>

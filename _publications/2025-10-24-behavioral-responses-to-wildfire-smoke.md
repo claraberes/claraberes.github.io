@@ -6,7 +6,6 @@ date: 2025-09-01
 authors:
   - "Clara Berestycki"
   - "Keith Chen"
-paperurl: "#"
 citation: 'Clara Berestycki and Keith Chen. Sept 2025. Submitted'
 status: "working paper"
 ---

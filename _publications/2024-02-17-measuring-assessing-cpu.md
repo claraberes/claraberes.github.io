@@ -2,7 +2,7 @@
 title: "Measuring and Assessing the Effects of Climate Policy Uncertainty"
 collection: publications
 category: conferences
-date: 2022-01-01
+date: 2022-08-26
 authors:
   - "Clara Berestycki"
   - "Stefano Carattini"

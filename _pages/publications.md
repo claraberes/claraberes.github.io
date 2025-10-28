@@ -12,24 +12,17 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}
-    {% assign title_shown = false %}
-    {% for post in posts_in_category reversed %}
-      {% if post.status == "published" or post.status == "working paper" %}
-        {% unless title_shown %}
+    {% assign posts_in_category = posts_in_category | sort: "date" | reverse %}
+    {% if posts_in_category.size > 0 %}
 ### {{ category[1].title }}
-          {% assign title_shown = true %}
-        {% endunless %}
-
+      {% for post in posts_in_category %}
 - {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}
-
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% assign all_posts = site.publications | reverse %}
+  {% assign all_posts = site.publications | sort: "date" | reverse %}
   {% for post in all_posts %}
-    {% if post.status == "published" or post.status == "working paper" %}
-- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status %}. {{ post.status }}{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}
-    {% endif %}
+- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}
   {% endfor %}
 {% endif %}

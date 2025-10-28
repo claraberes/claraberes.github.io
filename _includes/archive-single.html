@@ -1,6 +1,4 @@
-<h2 class="archive__item-title" itemprop="headline">
-  {{ post.title }}
-</h2>
+<p class="pub-title"><strong>{{ post.title }}</strong></p>
 
 {% if post.authors %}
   <p><strong>Authors:</strong> {{ post.authors | join: ", " }}</p>
@@ -12,8 +10,4 @@
 
 {% if post.citation %}
   <p><strong>Citation:</strong> {{ post.citation }}</p>
-{% endif %}
-
-{% if post.excerpt and site.read_more != 'enabled' %}
-  <p class="archive__item-excerpt">{{ post.excerpt }}</p>
 {% endif %}

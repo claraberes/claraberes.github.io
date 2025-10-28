@@ -11,7 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Improved style rendering for publication categories -->
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}

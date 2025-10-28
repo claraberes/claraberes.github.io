@@ -18,7 +18,8 @@ author_profile: true
     {% for post in posts_in_category reversed %}
       {% if post.status == "published" or post.status == "working paper" %}
         {% unless title_shown %}
-          <h2>{{ category[1].title }}</h2><hr />
+## {{ category[1].title }}
+---
           {% assign title_shown = true %}
         {% endunless %}
         {% include archive-single.html %}

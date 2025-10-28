@@ -20,7 +20,11 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
           {% assign title_shown = true %}
         {% endunless %}
 
+{% if post.paperurl %}
+- {{ post.title }}. [Download paper]({{ post.paperurl }})
+{% else %}
 - {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status %}. {{ post.status }}{% endif %}
+{% endif %}
 
       {% endif %}
     {% endfor %}
@@ -28,7 +32,13 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 {% else %}
   {% for post in site.publications reversed %}
     {% if post.status == "published" or post.status == "working paper" %}
+
+{% if post.paperurl %}
+- {{ post.title }}. [Download paper]({{ post.paperurl }})
+{% else %}
 - {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status %}. {{ post.status }}{% endif %}
+{% endif %}
+
     {% endif %}
   {% endfor %}
 {% endif %}

@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</div>
+You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
 {% endif %}
 
 {% include base_path %}
@@ -18,18 +18,37 @@ author_profile: true
     {% for post in posts_in_category reversed %}
       {% if post.status == "published" or post.status == "working paper" %}
         {% unless title_shown %}
-## {{ category[1].title }}
-
+### {{ category[1].title }}
           {% assign title_shown = true %}
         {% endunless %}
-        {% include archive-single.html %}
+
+- **{{ post.title }}**
+  {% if post.authors %}
+    - Authors: {{ post.authors | join: ", " }}
+  {% endif %}
+  {% if post.paperurl %}
+    - [Download paper]({{ post.paperurl }})
+  {% endif %}
+  {% if post.citation %}
+    - Citation: {{ post.citation }}
+  {% endif %}
+
       {% endif %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
     {% if post.status == "published" or post.status == "working paper" %}
-      {% include archive-single.html %}
+- **{{ post.title }}**
+  {% if post.authors %}
+    - Authors: {{ post.authors | join: ", " }}
+  {% endif %}
+  {% if post.paperurl %}
+    - [Download paper]({{ post.paperurl }})
+  {% endif %}
+  {% if post.citation %}
+    - Citation: {{ post.citation }}
+  {% endif %}
     {% endif %}
   {% endfor %}
 {% endif %}

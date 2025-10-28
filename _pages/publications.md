@@ -20,7 +20,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
           {% assign title_shown = true %}
         {% endunless %}
 
-- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status %}. {{ post.status }}{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}
+- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}
 
       {% endif %}
     {% endfor %}

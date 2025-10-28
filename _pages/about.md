@@ -13,5 +13,5 @@ I am an environmental economist with research interests in spatial mobility, avo
 
 Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay. I hold a Master in Economics from ENSAE and Ecole Polytechnique and obtained bachelor degrees in economics, sociology and philosophy from Sorbonne University. I also worked as consultant in the Environment Directorate at the OECD. 
 
-Don't hesitate to be in touch! 
+I am currently visiting [Keith Chen](https://www.anderson.ucla.edu/faculty/keith.chen/) at the Stanford Economics Department, don't hesitate to be in touch! 
 

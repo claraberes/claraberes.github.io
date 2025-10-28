@@ -22,7 +22,7 @@ repository               : "https://claraberes.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   name             : "Clara Berestycki"
-  avatar           : "claraberestycki_headshot.jpeg"
+  avatar           : "clara_headshot.jpeg"
   bio              : "PhD Candidate in Sustainable Development"
   location         : "New York City"
   employer         : "Columbia University"

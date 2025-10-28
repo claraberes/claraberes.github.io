@@ -19,7 +19,6 @@ author_profile: true
       {% if post.status == "published" or post.status == "working paper" %}
         {% unless title_shown %}
 ## {{ category[1].title }}
----
           {% assign title_shown = true %}
         {% endunless %}
         {% include archive-single.html %}

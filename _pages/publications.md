@@ -16,7 +16,8 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
     {% if posts_in_category.size > 0 %}
 ### {{ category[1].title }}
       {% for post in posts_in_category %}
-- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if post.dataurl %}. [Download data]({{ post.dataurl }}){% endif %}
+{% assign data_link = post.dataurl | default: post.data_url | default: post.data.url | strip %}
+- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
 {% if post.note %}  <br> *{{ post.note }}*{% endif %}
       {% endfor %}
     {% endif %}
@@ -24,6 +25,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 {% else %}
   {% assign all_posts = site.publications | sort: "date" | reverse %}
   {% for post in all_posts %}
-- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if post.dataurl %}. [Download data]({{ post.dataurl }}){% endif %}
+{% assign data_link = post.dataurl | default: post.data_url | default: post.data.url | strip %}
+- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.status == "working paper" %}. *Submitted*{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
   {% endfor %}
 {% endif %}

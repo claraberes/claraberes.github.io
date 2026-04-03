@@ -6,7 +6,7 @@ date: 2025-09-01
 authors:
   - "Clara Berestycki"
   - "Keith Chen"
-citation: 'Clara Berestycki and Keith Chen. "Behavioral Responses to Wildfire Smoke: Insights from Smartphone Location Data." Accepted at XXX.'
+citation: 'Clara Berestycki and Keith Chen. "Behavioral Responses to Wildfire Smoke: Insights from Smartphone Location Data." Accepted at PNAS.'
 status: "working paper"
 note: 'Received "Best Student Conference Paper Award" at the 2025 [NAREA Conference](https://narea.org/meeting-2025/).'
 ---

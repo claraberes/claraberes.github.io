@@ -8,5 +8,6 @@ authors:
   - "Keith Chen"
 citation: "Clara Berestycki and Keith Chen. March 2026. Accepted at PNAS."
 status: "working paper"
-note: "Received “Best Student Conference Paper Award” at the 2025 [NAREA Conference](https://narea.org/meeting-2025/)."
+note: |
+  Received "Best Student Conference Paper Award" at the 2025 [NAREA Conference](https://narea.org/meeting-2025/).
 ---

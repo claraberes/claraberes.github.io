@@ -17,7 +17,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
 ### {{ category[1].title }}
       {% for post in posts_in_category %}
 {% assign data_link = post.dataurl | default: post.data_url | default: post.data.url | strip %}
-- {{ post.citation }}{% if post.citation %}. {{ post.citation }}{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
+- {{ post.citation }}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
 {% if post.note %}  <br> *{{ post.note }}*{% endif %}
       {% endfor %}
     {% endif %}
@@ -26,6 +26,6 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
   {% assign all_posts = site.publications | sort: "date" | reverse %}
   {% for post in all_posts %}
 {% assign data_link = post.dataurl | default: post.data_url | default: post.data.url | strip %}
-- {{ post.title }}{% if post.authors %}. {{ post.authors | join: ", " }}{% endif %}{% if post.date %}. {{ post.date | date: "%B %Y" }}{% endif %}{% if post.citation %}. {{ post.citation }}{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
+- {{ post.citation }}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
   {% endfor %}
 {% endif %}

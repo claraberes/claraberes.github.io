@@ -16,9 +16,6 @@ Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay
 Don't hesitate to be in touch! 
 
 # Research
-{% if site.author.googlescholar %}
-You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
-{% endif %}
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}

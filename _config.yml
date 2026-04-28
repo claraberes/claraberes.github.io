@@ -30,9 +30,9 @@ author:
 
   # Academic websites
   arxiv            : # URL
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=pQejyG8AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0009-6683-401X" 
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL

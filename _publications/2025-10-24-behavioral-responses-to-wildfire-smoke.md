@@ -1,7 +1,7 @@
 ---
 title: "Behavioral Responses to Wildfire Smoke: Insights from Smartphone Location Data"
 collection: publications
-category: manuscripts
+category: published
 permalink: /publication/2025-10-24-behavioral-responses-to-wildfire-smoke
 date: 2026-04-27
 venue: "Proceedings of the National Academy of Sciences"

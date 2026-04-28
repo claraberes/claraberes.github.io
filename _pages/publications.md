@@ -4,9 +4,6 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-{% if site.author.googlescholar %}
-You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
-{% endif %}
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}

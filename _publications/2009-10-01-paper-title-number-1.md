@@ -14,5 +14,5 @@ dataurl: 'https://www.policyuncertainty.com/climate_policy_uncertainty.html'
 series: "CESifo Working Paper"
 number: "11782"
 status: "working paper"
-note: "<em>Revisions requested at Journal of Political Economy: Microeconomics<em>"
+note: "<em>Revisions requested at Journal of Political Economy: Microeconomics</em>"
 ---

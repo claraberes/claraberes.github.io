@@ -10,3 +10,5 @@ citation: "Clara Berestycki & M. Keith Chen. \"Behavioral responses to wildfire 
 ---
 
 Best Student Conference Paper Award at the 2025 [NAREA Conference](https://narea.org/meeting-2025/).
+
+<a href="https://matthewekahn.substack.com/p/a-podcast-on-the-economics-of-adapting" class="btn btn--info btn--small" target="_blank" rel="noopener">Podcast</a>

@@ -6,5 +6,5 @@ date: 2026-07-26
 authors:
   - "Clara Berestycki"
 status: "working paper"
-note: "JMP. Draft available upon request"
+note: "JMP"
 ---

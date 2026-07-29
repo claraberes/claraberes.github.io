@@ -12,5 +12,5 @@ authors:
 series: "CESifo Working Paper"
 number: "11782"
 status: "working paper"
-note: "<small>Revisions requested at <em>Journal of Political Economy Microeconomics</em>. <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076' target='_blank' rel='noopener'>[Download paper]</a> <a href='https://www.policyuncertainty.com/climate_policy_uncertainty.html' target='_blank' rel='noopener'>[Download data]</a></small>"
+note: "<small><span style='font-style: normal;'>Revisions requested at </span><em>Journal of Political Economy Microeconomics</em><span style='font-style: normal;'>. <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076' target='_blank' rel='noopener'>[Download paper]</a> <a href='https://www.policyuncertainty.com/climate_policy_uncertainty.html' target='_blank' rel='noopener'>[Download data]</a></span></small>"
 ---

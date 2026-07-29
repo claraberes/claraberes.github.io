@@ -9,10 +9,8 @@ authors:
   - "Stefano Carattini"
   - "Antoine Dechezleprêtre"
   - "Tobias Kruse"
-paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076'
-dataurl: 'https://www.policyuncertainty.com/climate_policy_uncertainty.html'
 series: "CESifo Working Paper"
 number: "11782"
 status: "working paper"
-note: "Revisions requested at <em>Journal of Political Economy Microeconomics</em>"
+note: "<small>Revisions requested at <em>Journal of Political Economy Microeconomics</em>. <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076' target='_blank' rel='noopener'>[Download paper]</a> <a href='https://www.policyuncertainty.com/climate_policy_uncertainty.html' target='_blank' rel='noopener'>[Download data]</a></small>"
 ---

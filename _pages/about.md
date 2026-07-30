@@ -13,7 +13,7 @@ I am an environmental economist working on climate change adaptation and with in
 
 I will be on the 2026-27 job market. 
 
-Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay. I hold a Master in Economics from ENSAE and Ecole Polytechnique and obtained bachelor degrees in economics, sociology and philosophy from Sorbonne University. I also worked as consultant in the Environment Directorate at the OECD. 
+Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay and worked as consultant in the Environment Directorate at the OECD. I hold a Master in Economics from ENSAE and Ecole Polytechnique.  
 
 Don't hesitate to be in touch! 
 

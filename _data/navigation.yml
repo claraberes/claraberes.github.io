@@ -9,7 +9,7 @@
 
 main:
 - title: "CV"
-    url: /files/cv_clara_berestycki.pdf
+  url: /files/cv_clara_berestycki.pdf
   #- title: "Research"
     #url: /publications/
 

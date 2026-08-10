@@ -13,7 +13,7 @@ I am an environmental economist working on climate change adaptation and with in
 
 I will be on the 2026-27 job market. 
 
-Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay and worked as consultant in the Environment Directorate at the OECD. I hold a Master in Economics from ENSAE and Ecole Polytechnique.  
+Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay and worked as consultant in the Environment Directorate at the OECD. I hold a Master in Economics from ENSAE and Ecole Polytechnique. My <a href="/files/cv_clara_berestycki.pdf" target="_blank">CV</a> is available here.
 
 Don't hesitate to be in touch! 
 

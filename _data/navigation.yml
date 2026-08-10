@@ -8,6 +8,8 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+- title: "CV"
+    url: /files/cv_clara_berestycki.pdf
   #- title: "Research"
     #url: /publications/
 

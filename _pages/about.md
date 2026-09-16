@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! I am a 6th-year PhD student in the [Sustainable Development program](https://www.sipa.columbia.edu/sipa-education/phd-sustainable-development) at Columbia University's School of International and Public Affairs. I am an environmental economist working on climate change adaptation with interests in spatial mobility, air pollution, and green innovation. 
+I am a 6th-year PhD student in the [Sustainable Development program](https://www.sipa.columbia.edu/sipa-education/phd-sustainable-development) at Columbia University's School of International and Public Affairs. I am an environmental economist working on climate change adaptation with interests in spatial mobility, air pollution, and green innovation. 
 
 **I am on the 2026-27 job market.** 
 

@@ -1,5 +1,5 @@
 ---
-title: "The Gravity of Smoke: Activity Reallocation and the Cost of Avoiding Wildfire Pollution"
+title: "Pricing wildfire smoke avoidance: activity reallocation in daily mobility"
 collection: publications
 category: manuscripts
 date: 2026-07-26

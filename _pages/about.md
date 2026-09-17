@@ -13,7 +13,8 @@ redirect_from:
 
   .pub { position: relative; padding-left: 1.2em; margin-bottom: 1.6em; line-height: 1.55; }
   .pub::before { content: "•"; position: absolute; left: 0; top: 0; opacity: 0.6; }
-  a.pub-title { font-weight: 700; font-size: 1.05em; text-decoration: none; }
+  .pub-title { font-weight: 700; font-size: 1.05em; }
+  a.pub-title { text-decoration: none; }
   a.pub-title:hover { text-decoration: underline; }
   .pub-meta { opacity: 0.8; font-size: 0.93em; }
   .pub-links a { margin-right: 0.85em; font-size: 0.9em; text-decoration: none; opacity: 0.75; }

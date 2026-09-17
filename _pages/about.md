@@ -13,7 +13,6 @@ Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay
 
 **I am on the 2026-27 job market.** 
 
-# Research
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}

@@ -6,12 +6,26 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+  h1 { margin-bottom: 0.2em; }
+  h1 + h3, h1 + p:empty + h3 { margin-top: 0.3em; }
+  p:empty { display: none; }
+
+  .pub { position: relative; padding-left: 1.2em; margin-bottom: 1.6em; line-height: 1.55; }
+  .pub::before { content: "•"; position: absolute; left: 0; top: 0; opacity: 0.6; }
+  a.pub-title { font-weight: 700; font-size: 1.05em; text-decoration: none; }
+  a.pub-title:hover { text-decoration: underline; }
+  .pub-meta { opacity: 0.8; font-size: 0.93em; }
+  .pub-links a { margin-right: 0.85em; font-size: 0.9em; text-decoration: none; opacity: 0.75; }
+  .pub-links a:hover { opacity: 1; }
+</style>
 
 I am a 6th-year PhD student in the [Sustainable Development program](https://www.sipa.columbia.edu/sipa-education/phd-sustainable-development) at Columbia University's School of International and Public Affairs. I am an environmental economist working on climate change adaptation with interests in spatial mobility, air pollution, and green innovation. 
 
 Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay and worked as consultant at the OECD. I hold a Master in Economics from ENSAE and Ecole Polytechnique. Please find my CV <a href="/files/cv_clara_berestycki.pdf" target="_blank">here</a>.
 
 **I am on the 2026-27 job market.** 
+
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign posts_in_category = site.publications | where: "category", category[0] %}

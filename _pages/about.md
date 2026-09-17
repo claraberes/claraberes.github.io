@@ -37,11 +37,11 @@ Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay
 {% if post.coauthors or post.links or post.status %}
 {% assign title_url = post.links[0].url | default: post.paperurl | default: post.permalink %}
 <div class="pub">
-<a class="pub-title" href="{{ title_url }}" target="_blank" rel="noopener">{{ post.title }}</a><br>
-{% if post.coauthors %}<span class="pub-meta">with {{ post.coauthors }}</span><br>{% endif %}
-{% if post.status or post.venue %}<span class="pub-meta">{% if post.status %}<em>{{ post.status }}</em>{% if post.venue %}, {% endif %}{% endif %}{% if post.venue %}<strong>{{ post.venue }}</strong>{% endif %}</span><br>{% endif %}
-{% if post.links or data_link != "" %}<span class="pub-links">{% for l in post.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>{% endfor %}{% if data_link != "" %}<a href="{{ data_link }}" target="_blank" rel="noopener">[Data]</a>{% endif %}</span>{% endif %}
-{% if post.note %}<br><span class="pub-meta"><em>{{ post.note }}</em></span>{% endif %}
+<div>{% if title_url and title_url != "" %}<a class="pub-title" href="{{ title_url }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<span class="pub-title">{{ post.title }}</span>{% endif %}</div>
+{% if post.coauthors != "" and post.coauthors %}<div class="pub-meta">with {{ post.coauthors }}</div>{% endif %}
+{% if post.status or post.venue %}<div class="pub-meta">{% if post.status %}<em>{{ post.status }}</em>{% if post.venue %}, {% endif %}{% endif %}{% if post.venue %}<strong>{{ post.venue }}</strong>{% endif %}</div>{% endif %}
+{% if post.links or data_link != "" %}<div class="pub-links">{% for l in post.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>{% endfor %}{% if data_link != "" %}<a href="{{ data_link }}" target="_blank" rel="noopener">[Data]</a>{% endif %}</div>{% endif %}
+{% if post.note %}<div class="pub-meta"><em>{{ post.note }}</em></div>{% endif %}
 </div>
 {% else %}
 - {% if post.citation %}{{ post.citation }}{% else %}{{ post.authors | join: " & " }}{% if post.date %}, {{ post.date | date: "%B %Y" }}{% endif %}. "{{ post.title }}"{% if post.series %}. *{{ post.series }}*{% endif %}{% if post.number %} No. {{ post.number }}{% endif %}{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}
@@ -57,11 +57,11 @@ Before starting the PhD, I graduated from Ecole Normale Supérieure Paris-Saclay
 {% if post.coauthors or post.links or post.status %}
 {% assign title_url = post.links[0].url | default: post.paperurl | default: post.permalink %}
 <div class="pub">
-<a class="pub-title" href="{{ title_url }}" target="_blank" rel="noopener">{{ post.title }}</a><br>
-{% if post.coauthors %}<span class="pub-meta">with {{ post.coauthors }}</span><br>{% endif %}
-{% if post.status or post.venue %}<span class="pub-meta">{% if post.status %}<em>{{ post.status }}</em>{% if post.venue %}, {% endif %}{% endif %}{% if post.venue %}<strong>{{ post.venue }}</strong>{% endif %}</span><br>{% endif %}
-{% if post.links or data_link != "" %}<span class="pub-links">{% for l in post.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>{% endfor %}{% if data_link != "" %}<a href="{{ data_link }}" target="_blank" rel="noopener">[Data]</a>{% endif %}</span>{% endif %}
-{% if post.note %}<br><span class="pub-meta"><em>{{ post.note }}</em></span>{% endif %}
+<div>{% if title_url and title_url != "" %}<a class="pub-title" href="{{ title_url }}" target="_blank" rel="noopener">{{ post.title }}</a>{% else %}<span class="pub-title">{{ post.title }}</span>{% endif %}</div>
+{% if post.coauthors != "" and post.coauthors %}<div class="pub-meta">with {{ post.coauthors }}</div>{% endif %}
+{% if post.status or post.venue %}<div class="pub-meta">{% if post.status %}<em>{{ post.status }}</em>{% if post.venue %}, {% endif %}{% endif %}{% if post.venue %}<strong>{{ post.venue }}</strong>{% endif %}</div>{% endif %}
+{% if post.links or data_link != "" %}<div class="pub-links">{% for l in post.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">[{{ l.label }}]</a>{% endfor %}{% if data_link != "" %}<a href="{{ data_link }}" target="_blank" rel="noopener">[Data]</a>{% endif %}</div>{% endif %}
+{% if post.note %}<div class="pub-meta"><em>{{ post.note }}</em></div>{% endif %}
 </div>
 {% else %}
 - {% if post.citation %}{{ post.citation }}{% else %}{{ post.authors | join: " & " }}{% if post.date %}, {{ post.date | date: "%B %Y" }}{% endif %}. "{{ post.title }}"{% if post.series %}. *{{ post.series }}*{% endif %}{% if post.number %} No. {{ post.number }}{% endif %}{% endif %}{% if post.paperurl %}. [Download paper]({{ post.paperurl }}){% endif %}{% if data_link != "" %}. [Download data]({{ data_link }}){% endif %}

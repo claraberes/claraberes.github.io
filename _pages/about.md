@@ -8,7 +8,8 @@ redirect_from:
 ---
 <style>
   h1 { margin-bottom: 0.2em; }
-  h1 + h3, h1 + p:empty + h3 { margin-top: 0.3em; }
+  h1 + h3, h1 + p:empty + h3 { margin-top: 0.2em; }
+  h3 { margin-top: 1.2em; margin-bottom: 0.5em; }
   p:empty { display: none; }
 
   .pub { position: relative; padding-left: 1.2em; margin-bottom: 1.6em; line-height: 1.55; }

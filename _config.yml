@@ -78,7 +78,9 @@ publication_category:
   published:
     title: 'Publications'
   manuscripts:
-    title: 'Working Papers'    
+    title: 'Working Papers' 
+  wip:
+    title: 'Work in progress'
   conferences:
     title: 'Pre-doctoral work'
 

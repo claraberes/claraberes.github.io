@@ -3,14 +3,13 @@ title: "Climate Policy Uncertainty and Firms' and Investors' Behavior"
 collection: publications
 category: manuscripts
 date: 2025-03-01
-authors:
-  - "Piero Basaglia"
-  - "Clara Berestycki"
-  - "Stefano Carattini"
-  - "Antoine Dechezleprêtre"
-  - "Tobias Kruse"
-series: "CESifo Working Paper"
-number: "11782"
-status: "working paper"
-note: "<span style='font-style: normal;'>Revisions requested at </span><em>Journal of Political Economy Microeconomics</em><span style='font-style: normal;'>. <a href='https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076' target='_blank' rel='noopener'>[Download paper]</a> <a href='https://www.policyuncertainty.com/climate_policy_uncertainty.html' target='_blank' rel='noopener'>[Download data]</a></span>"
+coauthors: "Piero Basaglia, Stefano Carattini, Antoine Dechezleprêtre and Tobias Kruse"
+status: "Revisions requested"
+venue: "Journal of Political Economy Microeconomics"
+note: "CESifo Working Paper No. 11782"
+links:
+  - label: "Paper"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076"
+  - label: "Data"
+    url: "https://www.policyuncertainty.com/climate_policy_uncertainty.html"
 ---

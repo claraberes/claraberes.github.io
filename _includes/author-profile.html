@@ -159,6 +159,9 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
-    </ul>
-  </div>
-</div>
+       </ul>
+       {% if author.photo_credit %}
+         <p style="font-size: 0.6em; color: #999; margin: 0.8em 0 0 0;">{{ author.photo_credit }}</p>
+       {% endif %}
+     </div>
+   </div>

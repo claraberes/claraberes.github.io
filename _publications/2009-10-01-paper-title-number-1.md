@@ -9,6 +9,6 @@ venue: "Journal of Political Economy Microeconomics"
 links:
   - label: "Paper"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5208076"
-  - label: "Data"
+  - label: "Data NEW RELEASE TO 2025"
     url: "https://www.policyuncertainty.com/climate_policy_uncertainty.html"
 ---

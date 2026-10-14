@@ -1,5 +1,5 @@
 ---
-title: "Pricing wildfire smoke avoidance: activity reallocation revealed from mobility data"
+title: "The Gravity of Wildfire Smoke: Avoidance Costs Revealed by Mobility Data"
 collection: publications
 category: manuscripts
 date: 2026-09-01
